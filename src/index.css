@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -22,17 +26,39 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 h1 {
+  color: black;
+  font-style: italic;
+  position: relative;
+  top: 40px;
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 0 0 24px 10%;
+  
+}
+
+nav {
+  background: #b01200;
+  background: linear-gradient(90deg, rgba(176, 18, 0, 1) 0%, rgba(245, 187, 78, 1) 77%, rgba(237, 221, 83, 1) 82%);
+  width: 100%;
+  min-height: 180px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 
 button {
