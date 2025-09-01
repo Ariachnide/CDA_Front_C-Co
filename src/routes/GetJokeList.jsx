@@ -1,8 +1,11 @@
 function GetJokeList() {
     return (
         <>
-            <div>
-                Toutes les blagues
+            <div className="card">
+                <h2>Toutes les blagues</h2>
+                <p>
+                    Bientôt, venez voir toutes les blagues disponibles ici.
+                </p>
             </div>
         </>
     );
