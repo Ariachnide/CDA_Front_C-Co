@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/CDA_Front_C-Co/">
       <Header />
       <div className="mainBlock">
         <Routes>
