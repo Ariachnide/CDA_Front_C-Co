@@ -6,6 +6,11 @@ You may find the backend app, made with node, express and Sequelize, [here](http
 
 ## Download and setup this repository locally
 
+Do not forget to check if node.js and npm on your computer before trying to work on this app. This app has been developped with the following versions:
+- npm: 10.5.0
+- nvm: 0.38.0
+- node: v21.7.1
+
 After you cloned this repo with command "git clone", go in root folder of the repository in Command Line Interface, and run this command in order to set up dependencies:
 ```
 npm install
